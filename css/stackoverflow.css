@@ -1,0 +1,59 @@
+.user-card {
+    width: 200px;
+    height: 67.69px;
+    background-color: #d9eaf7;
+    margin: 100px auto;
+    padding: 5px 6px 7px 7px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.user-card-head {
+    font-size: 12px;
+    color: #6a737c;
+    margin: 1px 0 4px 0;
+}
+
+.user-card-body-photo>a>img {
+    width: 32px;
+    height: 32px;
+}
+
+.user-card-body-photo {
+    float: left;
+}
+
+.user-card-body-info {
+    float: left;
+    margin-left: 8px;
+}
+
+.user-card-body-info-name {
+    height: 14px;
+    line-height: 14px;
+    /* 行高=字高，居中美观 */
+    margin-bottom: 4px;
+}
+
+.user-card-body-info-name>a {
+    font-size: 13px;
+    color: #0074cc;
+    text-decoration: none;
+}
+
+.user-card-body-info-reputation {
+    font-size: 12px;
+    color: #838c95;
+    height: 16px;
+    line-height: 16px;
+}
+
+.user-card-body-info-reputation-item {
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 3px 0 2px;
+    position: relative;
+    bottom: 2px;
+}
